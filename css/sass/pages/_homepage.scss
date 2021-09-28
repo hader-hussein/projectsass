@@ -1,0 +1,158 @@
+
+.slider{
+    blockquote{
+        font-size: 20px;
+        line-height: 1.7;
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+
+        color:$color-bokout ;
+        width: 80%;
+        margin: 30px auto;
+
+    }
+    img{
+      max-width: 100%;
+      @include opacity(.4);
+    }
+    
+    .bullets{
+        text-align: center;
+        li{
+         display: inline-block;
+         width: 20px;
+         height: 20px;
+         background-color: #d1d1d1;
+         border-radius: 50%;
+         border:3px solid #d1d1d1;
+         cursor: pointer;
+         &.active,
+         &:hover
+         
+         {
+             background-color: #fff;
+           border: 3px solid #333;
+         }
+
+        }
+    }
+
+}
+/*stert-services*/
+
+.services{
+  .services-box{
+    
+    
+    @media #{$minmedim}{
+      float: $float-left;
+      width: (100%/3);
+      &:not(:list-of-type){
+        padding-right: 10px;
+      }
+    }
+    @media #{$maxmobile}{
+ 
+      i{
+        display: block;
+        margin-bottom: 15px;
+      }
+    }
+    h3{
+      color: #666;
+
+    i{
+position: relative;
+font-size: 35px;
+top:4px
+    }
+  }
+  
+    p{
+      color: #777;
+      line-height: 1.5;
+
+    }
+    a{
+       color:$mincolor;
+       text-decoration: none;
+    }
+
+  }
+  
+}
+
+/*end-services*/
+/*stert-our-players*/
+.our-players{
+  .players-box{
+    
+    @media #{$minsmall} {
+      float: $float-left;
+      width: (100% / 2);
+      text-align: center;
+      margin-bottom: 40px;
+
+    }
+    @media #{$minmedim} {
+      width: (100% / 3);
+      text-align: $text-left;
+      margin-bottom: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+    }
+    @media #{$minlarg} {
+      width: (100% / 5);
+     
+
+    }
+    @media #{$maxmobile} {
+      margin-bottom: 40px;
+     
+
+    }
+    img{
+      max-width: 100%;
+    }
+    h3{
+      color: #666;
+      font-weight: normal;
+
+    span{
+      font-weight: bold;
+    }
+  }
+  
+    p{
+      color: #777;
+      line-height: 1.5;
+      font-size: 12px;
+
+    }
+    a{
+       color:$mincolor;
+       text-decoration: none;
+    }
+
+  }
+  
+}
+/*end-our-players*/
+/*stert-lorem-ipsum*/
+.lorem-ipsum{
+  .contener-lorem{
+    .lorem-box{
+      float: $float-left;
+    width: (100% / 3);
+      img{
+        max-width: 100%;
+        text-align: center;
+      }
+    }
+
+  }
+  
+}
+/*end-lorem-ipsum*/

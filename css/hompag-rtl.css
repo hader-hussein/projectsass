@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/*من اول شاشه صغيره وانت طلع*/
+/*stert-hader*/
+@media (min-width: 992px) {
+  .header .logo {
+    float: right;
+    text-align: right;
+  }
+}
+
+.header .logo .the-toggler {
+  right: auto;
+  left: 15px;
+}
+
+@media (min-width: 992px) {
+  .header .navbar {
+    float: right;
+  }
+}
+
+.header .navbar li {
+  float: right;
+}
+
+@media (max-width: 767px) {
+  .header .navbar li {
+    text-align: right;
+  }
+}
+
+/*end-hader*/
+/*stert-homepage*/
+/*stert-services*/
+@media (min-width: 992px) {
+  .services .services-box {
+    float: right;
+  }
+}
+
+/*end-services*/
+/*stert-our-players*/
+@media (min-width: 768px) {
+  .our-players .players-box {
+    float: right;
+  }
+}
+
+@media (min-width: 992px) {
+  .our-players .players-box {
+    text-align: right;
+  }
+}
+
+/*end-our-players*/
+/*stert-lorem-ipsum*/
+.lorem-ipsum .contener-lorem .lorem-box {
+  float: right;
+}
+
+/*end-lorem-ipsum*/
+/*end-homepage*/
+/*stert-footer*/
+footer .gallary, footer .info, footer .contact {
+  float: right;
+}
+
+@media (min-width: 768px) {
+  footer .gallary img {
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  footer .gallary .text-box {
+    float: right;
+  }
+}
+
+.copyright .copy-text, .copyright .author {
+  float: right;
+}
+
+.copyright .author {
+  text-align: left;
+}
+
+/*end-footer*/
+/*# sourceMappingURL=hompag-rtl.css.map */

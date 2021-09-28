@@ -1,0 +1,148 @@
+@import 'sass/helpers/variables';
+$float-left:right;
+$float-right:left;
+$text-right:left;
+$text-left:right;
+/*stert-hader*/
+.header{
+   
+    .logo{
+      
+        @media #{$minmedim} {
+        float: $float-left;
+        text-align: $text-left;
+        
+        }
+        .the-toggler{
+            right: auto; 
+            left: 15px;
+        }
+
+       
+        
+
+    }
+    .navbar{
+        
+       
+        
+        @media #{$minmedim} {
+            float: $float-left;
+        }
+    
+        li{
+            float: $float-left;
+       
+            @media #{$maxmobile} {
+              
+                text-align: $text-left;
+               
+
+
+            }
+            
+
+        }
+
+    }
+}
+/*end-hader*/
+/*stert-homepage*/
+
+/*stert-services*/
+
+.services{
+  .services-box{
+    
+    
+    @media #{$minmedim}{
+      float: $float-left;
+     
+    }
+   
+  
+}
+}
+/*end-services*/
+/*stert-our-players*/
+.our-players{
+  .players-box{
+    
+    @media #{$minsmall} {
+      float: $float-left;
+      
+
+    }
+    @media #{$minmedim} {
+      
+      text-align: $text-left;
+      
+    }
+   
+    
+  }
+  
+   
+    
+
+  }
+  
+
+/*end-our-players*/
+/*stert-lorem-ipsum*/
+.lorem-ipsum{
+  .contener-lorem{
+    .lorem-box{
+      float: $float-left;
+  
+     
+    }
+
+  }
+  
+}
+/*end-lorem-ipsum*/
+/*end-homepage*/
+/*stert-footer*/
+footer{
+   
+    .gallary,.info,.contact{
+        float: $float-left;
+    }
+    .gallary{
+       
+        
+     
+        img{
+         @media #{$minsmall }{
+            float: $float-left;
+
+             
+         }
+        }
+        .text-box{
+            @media #{$minsmall }{
+                float: $float-left;
+               
+
+             }
+           
+           
+
+        }
+       
+     }
+    }
+    
+   
+    .copyright{
+       
+        .copy-text ,.author{
+          float: $float-left;
+        }
+        .author{
+          text-align: $text-right;
+        }
+    }
+
+/*end-footer*/
